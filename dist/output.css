@@ -612,13 +612,8 @@ video {
   display: grid;
 }
 
-.rotate-\[-90deg\] {
-  --tw-rotate: -90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .grid-cols-fill-40 {
-  grid-template-columns: repeat(auto-fitt, 300px);
+  grid-template-columns: repeat(auto-fit, 300px);
 }
 
 .flex-wrap {
@@ -688,11 +683,6 @@ video {
   padding-bottom: 26px;
 }
 
-.px-\[26px\] {
-  padding-left: 26px;
-  padding-right: 26px;
-}
-
 .pb-\[111px\] {
   padding-bottom: 111px;
 }
@@ -729,14 +719,6 @@ video {
   font-size: 34px;
 }
 
-.text-\[47px\] {
-  font-size: 47px;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -747,10 +729,6 @@ video {
 
 .leading-\[42px\] {
   line-height: 42px;
-}
-
-.leading-\[58px\] {
-  line-height: 58px;
 }
 
 .text-black {
@@ -774,11 +752,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:bg-slate-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-slate-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
@@ -794,56 +767,24 @@ video {
     padding-bottom: 90px;
   }
 
-  .h\:text-\[12px\] {
-    font-size: 12px;
-  }
-
-  .h\:text-\[28px\] {
-    font-size: 28px;
-  }
-
   .h\:text-\[10px\] {
     font-size: 10px;
   }
 
-  .h\:text-\[47px\] {
-    font-size: 47px;
-  }
-
-  .h\:text-\[3px\] {
-    font-size: 3px;
-  }
-
-  .h\:text-\[30px\] {
-    font-size: 30px;
+  .h\:text-\[12px\] {
+    font-size: 12px;
   }
 
   .h\:text-\[20px\] {
     font-size: 20px;
   }
 
-  .h\:text-\[7px\] {
-    font-size: 7px;
-  }
-
-  .h\:text-\[70px\] {
-    font-size: 70px;
-  }
-
-  .h\:leading-\[58px\] {
-    line-height: 58px;
-  }
-
-  .h\:leading-\[px\] {
-    line-height: px;
+  .h\:text-\[28px\] {
+    font-size: 28px;
   }
 
   .h\:leading-\[30px\] {
     line-height: 30px;
-  }
-
-  .h\:text-\[px\] {
-    color: px;
   }
 }
 
@@ -851,10 +792,6 @@ video {
   .p\:rotate-\[-90deg\] {
     --tw-rotate: -90deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .p\:text-\[10px\] {
-    font-size: 10px;
   }
 }
 
@@ -881,10 +818,6 @@ video {
     font-size: 34px;
   }
 
-  .tablet\:text-\[10px\] {
-    font-size: 10px;
-  }
-
   .tablet\:text-\[47px\] {
     font-size: 47px;
   }
@@ -898,10 +831,6 @@ video {
   .laptop\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
-  }
-
-  .laptop\:text-\[18px\] {
-    font-size: 18px;
   }
 }
 

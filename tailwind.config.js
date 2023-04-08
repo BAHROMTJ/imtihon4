@@ -23,7 +23,7 @@ module.exports = {
       'body': ['"Open Sans"', ],
     },
   gridTemplateColumns: {
-      'fill-40': 'repeat(auto-fitt, 300px)',
+      'fill-40': 'repeat(auto-fit, 300px)',
     },
     extend: {},
   },
